@@ -12,3 +12,9 @@ console.log(naoDeclarada) // Não da erro -> undefined
 
 naoDeclarada = "Declarada"
 console.log(naoDeclarada) // Printa Declarada
+
+// Alterando o valor de uma let
+let valor = 10 // Valor = 10
+valor += 5 // Valor = 15
+// Aqui, perdeu-se o valor inicial de valor
+
