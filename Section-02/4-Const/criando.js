@@ -20,8 +20,11 @@ console.log(typeof num2)
 // Pode ser escrito das duas maneiras
 
 // 4- Messing around with data types
-const tipo1 = 10
-const tipo2 = '5'
-console.log(tipo1 + tipo2) // 105
+const type1 = 10 // Number
+const type2 = '5' // String
+const count = type1 + type2 // 105
+console.log(count)
 // Aconteceu uma concatenação, e não uma soma
 // Pois um deles é uma String, e outro um number
+console.log(typeof count) // String
+console.log(typeof(type1 + type2))
