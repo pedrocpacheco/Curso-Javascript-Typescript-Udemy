@@ -4,8 +4,8 @@ console.log(nome)
 // const nome = "Pacheco" // Não se modifica o valor da constante
 
 // 2- Reutilizando o valor de uma const
-const num1 = 10
-const num2 = num1
+const num1 = 5
+const num2 = 10
 
 const result = num1 * num2
 const doubleResult = result * 2
