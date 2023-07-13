@@ -37,3 +37,9 @@ alunos.pop()
 console.log(a, b); // A e B foram afetados pelo POP
 
 // Valores de Referencia apontam pra um local na memoria
+alunos.push("Andre")
+console.log(b);
+
+// 4- Caso de copiar o valor sem fazer referencia
+let c = [1,2,3]
+let d = [...a] // so copia o valor, não aponta pro mesmo lugar
