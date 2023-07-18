@@ -2,7 +2,7 @@
     If pode ser usado sozinho
     Else ou Else if precisa de if
     Else if podem haver quantos quiser
-    Else é o resto feito por ultimo 
+    Else é o resto feito por ultimo e 
 */
 
 const hora = 19
