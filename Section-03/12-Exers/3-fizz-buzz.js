@@ -8,4 +8,8 @@ const fizzBuzz = (numero) =>{
     else{return numero}
 }
 
-console.log(fizzBuzz(15));
+console.log(fizzBuzz("a"));
+
+for(let i = 0; i < 100; i++){
+    console.log(`Numero: ${i} | Mensagem: ${fizzBuzz(i)}`);
+}
