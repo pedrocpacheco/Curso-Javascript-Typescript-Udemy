@@ -47,6 +47,7 @@ console.log(sobrenome);
 // 3- Elevação
 console.log(naoDefinida); // O que aparece? Sem proxima linha -> Erro | Com proxima linha -> undefined
 var naoDefinida = 'Agora Definiu' // sem essa linha apareceria um erro
+console.log(naoDefinida); // agora tem valor
 /* O que o Javascript faz, é ler seu Codigo inteiro, e colocar la em cima
    todas as variaveis criadas, inicializando elas, e esperando então seus valores 
    (isso só acontece com var, com let e const não) */
