@@ -1,15 +1,11 @@
+// Arrays
 const lista = ['Pedro', 'Thiago', 'Fritz']
 
-// Classico
-for(let i = 0; i < lista.length; i++){
-    console.log(lista[i]);
-}
-
-// For in 
 for(let indice in lista){
     console.log(`Index: ${indice} | Valor: ${lista[indice]}`);
 }
 
+// Objetos
 const pessoa = {
     nome: 'Pedro',
     sobrenome: 'Pacheco', 
