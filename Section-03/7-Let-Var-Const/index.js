@@ -43,3 +43,10 @@ function sayLastName() {
 
 console.log(sobrenome);
 // variaveis fora de uma função, pode ser usadas dentro dela
+
+// 3- Elevação
+console.log(naoDefinida); // O que aparece? Sem proxima linha -> Erro | Com proxima linha -> undefined
+var naoDefinida = 'Agora Definiu' // sem essa linha apareceria um erro
+/* O que o Javascript faz, é ler seu Codigo inteiro, e colocar la em cima
+   todas as variaveis criadas, inicializando elas, e esperando então seus valores 
+   (isso só acontece com var, com let e const não) */
