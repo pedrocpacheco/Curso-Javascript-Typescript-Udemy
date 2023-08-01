@@ -4,7 +4,7 @@ function sayYes(){
     console.log("yes");
 }
 
-sayNo() // -> Hoisting não funciona com Arrow Functions
+// sayNo() // -> Hoisting não funciona com Arrow Functions
 
 const sayNo = () => console.log("no");
 

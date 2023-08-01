@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/test", (request, response) => {
+app.get("/movies", (request, response) => {
     response.send("Tudo Certo!")
 })
 
