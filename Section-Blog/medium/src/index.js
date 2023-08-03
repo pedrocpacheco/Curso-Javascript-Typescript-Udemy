@@ -18,3 +18,12 @@ app.get("api/users", (req, res) => {
     res.json(dataSource);
 })
 
+app.post("api/users", (req, res) => {
+    const newUser = {
+        id: dataSource.length + 1,
+        name: req.body.name
+    };
+    dataSource.push(newUser);
+    res.status(201).json(newUser)
+
+})

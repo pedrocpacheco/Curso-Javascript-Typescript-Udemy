@@ -2,7 +2,7 @@
 
 function createPerson(firstName, lastName, age){ 
     return {
-    firstName,
+    firstName, 
     lastName,
     age,
     alive: true,
