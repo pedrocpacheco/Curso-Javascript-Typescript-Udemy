@@ -14,10 +14,14 @@ const dataSource = [
     {id: 2, name: "Pedro Pacheco"}
 ]
 
+// ! Criando os metodos o CRUD
+
+// * GET 
 app.get("api/users", (req, res) => {
     res.json(dataSource);
 })
 
+// * POST
 app.post("api/users", (req, res) => {
     const newUser = {
         id: dataSource.length + 1,
@@ -25,5 +29,9 @@ app.post("api/users", (req, res) => {
     };
     dataSource.push(newUser);
     res.status(201).json(newUser)
+})
 
+// ? Inicializando o Server
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 })
